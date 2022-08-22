@@ -26,7 +26,7 @@ include('pd0db/config/db.conn.php');
 
               </div>
               <div class="card-body"></div>
-              <form action="code.php" method="POST" enctype="multipart/form-data">
+              <form action="code1.php" method="POST" enctype="multipart/form-data">
                 <input type="file" name ="import_files" class="form-control"> 
                 <button class="btn btn-primary mt-3" name="save_excel" class="btn btn-primary mt-3" >import </button></form>
             </div >
